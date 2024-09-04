@@ -677,3 +677,29 @@ footer a {
 [data-action] {
   display: none;
 }
+
+#eu > div {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px;
+}
+
+#eu > div > img {
+  width: 250px;
+}
+
+@media (min-width: 820px) {
+  #eu > div {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+  }
+
+  #eu > div > img {
+    width: 350px;
+  }
+}
